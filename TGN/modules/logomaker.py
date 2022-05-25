@@ -31,11 +31,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "Emli.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @TGN_RO_BOT")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @URANIUMxROBOT")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @GodfatherSupport, {e}')
+   await event.reply(f'Error Report @URANIUMXSUPPORT, {e}')
 
 
 
@@ -69,7 +69,7 @@ async def lego(event):
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @GodfatherSupport, {e}')
+   await event.reply(f'Error Report @URANIUMXSUPPORT, {e}')
 
 file_help = os.path.basename(__file__)
 file_help = file_help.replace(".py", "")
